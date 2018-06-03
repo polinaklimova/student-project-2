@@ -1,0 +1,48 @@
+#wrapper {
+  display: flex;
+}
+
+.container {
+  background: url(../img/cover.jpg) no-repeat center center scroll;
+  background-size: cover;
+  height: 20em;
+}
+
+#wrapper .one {
+  float: left;
+  min-height: 20em;
+}
+
+.two {
+  background: url(../img/cover-1-1.png) no-repeat center center scroll;
+  float: left;
+  background-size: cover;
+}
+
+.two-3 {
+  background: url(../img/cover-3.jpg) no-repeat center center scroll;
+  float: left;
+  background-size: cover;
+}
+
+.two-2 {
+  background: url(../img/cover-2.jpg) no-repeat center center scroll;
+  float: left;
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+  height: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+  position: relative;
+  color: #088cb7;
+  font-size: 24px;
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+
+li {
+  margin-bottom: 1.2em;
+}

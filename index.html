@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>AVRO</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+      <style>
+         body {
+         margin: 0;
+         }
+         .topnav {
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         overflow: hidden;
+         font-family: 'Montserrat', sans-serif;
+         background-color: #273031;
+         z-index: 10;
+         }
+         .topnav a {
+         float: left;
+         display: block;
+         color: #ffffff;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-size: 12px;
+         }
+         .topnav a:hover {
+         color: #088cb7;
+         }
+         .active {
+         background-color: #088cb7;
+         }
+         .topnav .icon {
+         display: none;
+         }
+         @media screen and (max-width: 600px) {
+         .topnav a:not(:first-child) {
+         display: none;
+         }
+         .topnav a.icon {
+         float: right;
+         display: block;
+         }
+         .topnav.responsive .icon {
+         position: absolute;
+         right: 0;
+         top: 0;
+         }
+         .topnav.responsive a {
+         float: none;
+         display: block;
+         text-align: left;
+         }
+         .steps li {width: 50%;}
+         }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper-bg">
+         <header>
+            <div class="topnav" id="myTopnav">
+               <a class="logo" href="index.html" style="font-family: 'Helvetica'; margin: 0 20px; font-size: 20px; padding: 0 16px; line-height: 43px; color: #008cb7;">AVRO</a>
+               <a href="index.html" class="logo active">ABOUT</a>
+               <a href="features.html">FEATURES</a>
+               <a href="subscription.html">SUBSCRIPTION</a>
+               <a href="contacts.html">CONTACTS</a>
+               <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <div class="header-pic"></div>
+         </header>
+         <div class="container">
+            &nbsp;
+         </div>
+         <div class="container3">
+            <div class="upper-text">
+               <h1><span class="uniform-bg">3 IN 1: RESTORE ANTIQUES</span>
+               </h1>
+               <h1><span class="uniform-bg">MANAGE CATALOG OF ALL ITEMS</span>
+               </h1>
+               <h1><span class="uniform-bg">BE AWARE OF WORK CLIMATE</span>
+               </h1>
+            </div>
+         </div>
+         <p class="text-center">If you work in a restoration workshop, evaluate our system for keeping records on the restoration processes performed
+            and controlling climate during the restoration process. It will help you organize and control the restoration process
+            from beginning to end.
+         </p>
+         <!--4 parts-->
+         <div id="wrapper-2">
+            <ol class="steps">
+               <li>
+                  <h2>1. Create users accounts</h2>
+                  <p>There are two roles in a system - User and Super User. The second one manage the whole system, create accounts
+                     for the team and check all restoration projects.
+                  </p>
+               </li>
+               <li>
+                  <h2>2. Activate sensors</h2>
+                  <p>Everybody can have a sensor which provides Temperature and Humidity measures every 2 sec. Use a sensor while you
+                     start working on a new object. Data from the sensor is logged in a project history.
+                  </p>
+               </li>
+               <li>
+                  <h2>3. Use checklists</h2>
+                  <p>While working tick steps done. Make checklists by yourself or edit existing ones. Describe every step of the restoration
+                     process including materials used and time of each step of work.
+                  </p>
+               </li>
+               <li>
+                  <h2>4. Make catalog of restorated object</h2>
+                  <p>Every project takes a part in a catalog. Specialists can look at all projects of the team and show them to clients.</p>
+               </li>
+            </ol>
+         </div>
+         <div id="wrapper">
+            <div id="one">
+               <div class="description-short">
+                  <h2>Why AVRO?</h2>
+                  <p style="text-align: left;">Create check-lists of step-by-step instructions on the restoration of antiquities from different materials and
+                     condition. Monitor the ambient microclimate (temperature and humidity) and create a catalog of restored objects.
+                     3 in 1 system: it has Web UI, sensors and Mobile App. Easy to work with, easy to keet the data. 
+                  </p>
+               </div>
+               <div class="description-short-list">
+                  <p style="padding-left: 8%;">Who will be interested in?</p>
+                  <ul>
+                     <li>Specialists in restoration workshops</li>
+                     <li>Administration of restoration workshops</li>
+                     <li>Clients</li>
+                  </ul>
+               </div>
+            </div>
+            <div id="two">
+            </div>
+         </div>
+         <footer class="footer">
+            <p>Contact us:&nbsp;<a href="mailto:polina-klimova@mail.ru">polina-klimova@mail.ru</a></p>
+         </footer>
+      </div>
+   </body>
+</html>
